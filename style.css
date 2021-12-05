@@ -5,3 +5,8 @@ html {
 body {
     font-family: 'Courgette', cursive;
 }
+h1 {
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+}
