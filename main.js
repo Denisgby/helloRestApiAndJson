@@ -15,14 +15,14 @@ function setHeroes({ squadName, homeTown, formed, members }) {
 
 function setMembers(members) {
     return members.map(
-        (hero) => `
+        (hero) => `<div>
         <h3>${hero.name}</h3>
         <p>Secret indentity: ${hero.secretIdentity}</p>
         <p>Age: ${hero.age}</p>
         <p>Superpowers: </p>
         <ul>
            ${hero.powers.map((power) => `<li>${power}</li>`).join(' ')}
-        </ul>
+        </ul></div>
         `
     )
     .join(' ') ;
