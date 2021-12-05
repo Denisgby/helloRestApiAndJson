@@ -7,7 +7,8 @@ function setHeroes({squadName,homeTown,formed,members}){
         'afterbegin',
         `
         <h1>${squadName}</h1>
-        <h2>${homeTown}</h2>
+        <h2>${homeTown} // Formed: ${formed} </h2>
+
         ` 
     );
 }  
